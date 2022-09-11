@@ -48,7 +48,6 @@ class ApplicationController < Sinatra::Base
        image_url: params[:image_url]
       )
     rent.to_json
-
   end
 
   get "/review" do
@@ -77,9 +76,7 @@ class ApplicationController < Sinatra::Base
   delete "/reviews/:username" do
     review = Review.find(params[:username])
     review.destroy(username: params[:username]
-      
       )
     rent.to_json
-
     end
 end

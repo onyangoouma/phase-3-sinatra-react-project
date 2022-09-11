@@ -40,6 +40,8 @@ gem "sinatra-activerecord", "~> 2.0"
 
 # https://github.com/ruby/rake
 
+ruby "3.1.2"
+
 gem "rake", "~> 13.0"
 
 # Provides functionality to interact with a postgres database
