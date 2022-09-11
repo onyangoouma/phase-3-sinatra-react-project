@@ -39,6 +39,7 @@ Rent.create(title: "House", region: "Vipingo", address: "Haddy",
 Review.create(username: "jackson", body: "i love gym")
 Review.create(username: "Derrick", body: "i love chesse")
 Review.create(username: "john", body: "i love eating")
+Review.create(username: "Jack", body: "this is an awsome house")
 
 
 
