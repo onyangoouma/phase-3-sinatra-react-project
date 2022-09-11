@@ -40,7 +40,7 @@ gem "sinatra-activerecord", "~> 2.0"
 
 # https://github.com/ruby/rake
 
-ruby "3.1.2"
+ruby "2.7.4"
 
 gem "rake", "~> 13.0"
 
