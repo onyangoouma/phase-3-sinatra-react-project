@@ -36,4 +36,10 @@ Rent.create(title: "House", region: "Karen", address: "32 Pawnee Street Butte, M
 Rent.create(title: "House", region: "Vipingo", address: "Haddy", 
         room: 6, bedroom:3, currency:"ksh", size: 4200, price: 170000000, image_url: "https://media.vrbo.com/lodging/75000000/74510000/74509300/74509257/0c99b0d2.c6.jpg")
     
+Review.create(username: "jackson", body: "i love gym")
+Review.create(username: "Derrick", body: "i love chesse")
+Review.create(username: "john", body: "i love eating")
+
+
+
     puts "✅ Done seeding!"

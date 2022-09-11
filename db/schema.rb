@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_09_07_191825) do
+ActiveRecord::Schema.define(version: 2022_09_10_145606) do
 
   create_table "rents", force: :cascade do |t|
     t.string "title"
@@ -22,6 +22,11 @@ ActiveRecord::Schema.define(version: 2022_09_07_191825) do
     t.string "currency"
     t.integer "price"
     t.string "image_url"
+  end
+
+  create_table "reviews", force: :cascade do |t|
+    t.string "username"
+    t.string "body"
   end
 
 end
